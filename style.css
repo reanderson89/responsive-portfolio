@@ -9,6 +9,15 @@ html {
     background-color:rgb(78, 170, 164);
     color:white;
 }
+.container {
+  
+    float: left;
+    background-color: white;
+    
+    margin: 20px;
+  
+    
+}
 
 footer {
     text-align: center;
@@ -16,3 +25,5 @@ footer {
     background-color: rgb(102, 102, 102);
     color: rgb(107, 114, 121);
   }
+
+  
