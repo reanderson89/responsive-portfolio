@@ -1,4 +1,18 @@
-#name {
-    background-color:mediumaquamarine;
-    color: white;
+html {
+    background-image: url(assets/992-index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+#name {
+    background-color:rgb(78, 170, 164);
+    color:white;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(102, 102, 102);
+    color: rgb(107, 114, 121);
+  }
