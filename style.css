@@ -13,8 +13,8 @@ html {
   
     float: left;
     background-color: white;
-    
     margin: 20px;
+    width: 80%;
   
     
 }
@@ -26,4 +26,8 @@ footer {
     color: rgb(107, 114, 121);
   }
 
-  
+  @media screen and (max-width: 600px) {
+      .container {
+          margin: 10%;
+      }
+  }
