@@ -14,7 +14,10 @@ html {
     float: left;
     background-color: white;
     margin: 20px;
-    width: 80%; 
+    width: 80%;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    
    
 }
 main section h1 {
@@ -35,6 +38,7 @@ footer {
     position:fixed;
     bottom: 0;
     left: 0; 
+    
   }
 
   .copyright {
@@ -45,5 +49,7 @@ footer {
   @media screen and (max-width: 600px) {
       .container {
           margin: 10%;
+          margin-bottom: 100px;
+          margin-top:  100px;
       }
   }
