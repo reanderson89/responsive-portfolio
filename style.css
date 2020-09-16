@@ -39,7 +39,6 @@ main section h1 {
 /* formatting for the footer on each page */
 footer {
     text-align: center;
-    /* padding: 3px; */
     background-color: rgb(102, 102, 102);
     color: rgb(118, 122, 126);
     clear: both;
