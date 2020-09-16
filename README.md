@@ -8,7 +8,7 @@
 
 ## **Description**
 
-This project was based around creating a webpage that was built to be responsive when adjusted to different pixel levels. It needed to have multiple links to it that would all work to navigate throughout the website. The webpages also needed to be built to look like the images given at the different sizes. I have attached the images that were given for reference. I also made sure to add in my own personal information since it is my own portfolio.
+This project was based around creating a webpage that was built to be responsive when adjusted to different pixel levels. It needed to have multiple links to it that would all work to navigate throughout the website. The webpages also needed to be built to look like the images given at the different sizes. I have attached the images that were given for reference. I also made sure to add in my own personal information since it is my own portfolio. HTML validation was run and came back with warnings about the lack of headers "h2-h6", no real issues found.
 
 ## **Technology Stack**
 
