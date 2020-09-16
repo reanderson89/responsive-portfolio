@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Reset.css first then, Bootstrap, style.css, contact.css -->
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -14,29 +14,27 @@
   </head>
 
   <body>
-    
+    <!-- Navigation bar and header for the page -->
     <header class="container-fluid">
         <section class="row">
             <nav class="navbar navbar-expand-md navbar-light bg-light col-md-12">
-                <span id="name" class="navbar-brand mb-0 h1">Your Name</span>
+                <span id="name" class="navbar-brand mb-0 h1">Robert Anderson</span>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <section class="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
                   <section class="navbar-nav ml-auto">
+                    <!-- links to the other pages -->
                     <a id="home" class="nav-link active ml-auto" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                     <a class="nav-link ml-auto" href="portfolio.html">Portfolio</a>
                     <a class="nav-link ml-auto" href="index.html">About</a>
-                    
                   </section>
                 </section>
               </nav>
-              
-            
         </section>
     </header>
 
-
+<!-- Contains the contact form that can be filled out and submitted -->
     <main class="container">
       <section class="row">
         <section class="col-md-12">
@@ -47,26 +45,34 @@
       <section class="row">
         <section class="col-md-12">
           <form>
+            <!-- Name on form -->
             <section class="form-group">
               <label>Name</label>
               <input type="text" class="form-control" id="name-label" placeholder="Name">
             </section>
+            <!-- Email on form -->
             <section class="form-group">
               <label>Email</label>
               <input type="email" class="form-control" id="email-label" aria-describedby="emailHelp" placeholder="Email">
             </section>
+            <!-- Message on form -->
             <section class="form-group">
               <label>Message</label>
               <textarea placeholder="Message" class="form-control" id="message-label" rows="3"></textarea>
             </section>
+            <!-- button to submit form -->
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </section>  
       </section>
     </main>
 
-    <footer class="container-fluid">
+<!-- Footer -->
+    <footer class="footer">
+      <!-- thing teal line on top of footer -->
+     <div class="top"></div>
       <section class="row">
+        <!-- main footer -->
         <section class="col-md-12 copyright">
           <p>© Copyright</p>
         </section>

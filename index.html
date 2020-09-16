@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+        <!-- Reset.css first then, Bootstrap, style.css, index.css -->
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -14,28 +14,27 @@
   </head>
 
   <body>
-    
+    <!-- Navigation bar and header for the page -->
     <header class="container-fluid" id="about-header">
         <section class="row">
             <nav class="navbar navbar-expand-md navbar-light bg-light col-md-12">
-                <span id="name" class="navbar-brand mb-0 h1">Your Name</span>
+                <span id="name" class="navbar-brand mb-0 h1">Robert Anderson</span>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <section class="navbar-nav ml-auto">                   
+                  <section class="navbar-nav ml-auto"> 
+                                      <!-- Links to the other pages -->
                     <a class="nav-link ml-auto" href="contact.html">Contact</a>
                     <a class="nav-link ml-auto" href="portfolio.html">Portfolio</a>
                     <a id="home" class="nav-link active ml-auto" href="index.html">About <span class="sr-only">(current)</span></a>
                   </section>
                 </section>
-              </nav>
-              
-            
+              </nav>  
         </section>
     </header>
 
-
+<!-- Main body of the page, contains about me information and image. -->
     <main class="container">
       <section class="row">
         <section class="col-md-12">
@@ -49,7 +48,7 @@
           <section class="col-sm-12">
             <img src="http://www.fillmurray.com/g/200/200" alt="Bill Murray" class="img-thumbnail aboutMe-img">
         
-            <p class="firstP" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, natus sapiente! Nisi, explicabo quaerat. Assumenda temporibus, quas molestiae natus amet odit doloremque quo sunt nam labore, enim repellat repudiandae distinctio pariatur magnam voluptatibus exercitationem atque reprehenderit rerum tenetur corporis maxime unde veritatis. Repudiandae velit numquam beatae obcaecati, quis pariatur fugit amet provident ducimus laboriosam sed neque odit rem soluta, repellendus alias id doloremque quas natus sequi adipisci. Dolorem velit laborum tenetur, hic, labore esse magni laudantium illum beatae maxime, reiciendis eligendi.</p>
+            <p class="text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, natus sapiente! Nisi, explicabo quaerat. Assumenda temporibus, quas molestiae natus amet odit doloremque quo sunt nam labore, enim repellat repudiandae distinctio pariatur magnam voluptatibus exercitationem atque reprehenderit rerum tenetur corporis maxime unde veritatis. Repudiandae velit numquam beatae obcaecati, quis pariatur fugit amet provident ducimus laboriosam sed neque odit rem soluta, repellendus alias id doloremque quas natus sequi adipisci. Dolorem velit laborum tenetur, hic, labore esse magni laudantium illum beatae maxime, reiciendis eligendi.</p>
           </section>
         </section>
         <section class="row">
@@ -59,22 +58,25 @@
         </section>
         <section class="row">
           <section class="col-sm-12">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi autem inventore quibusdam placeat sapiente assumenda magnam libero non nihil, officiis, a pariatur tempore, ex animi soluta laboriosam. Reiciendis, officia quibusdam?</p>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi autem inventore quibusdam placeat sapiente assumenda magnam libero non nihil, officiis, a pariatur tempore, ex animi soluta laboriosam. Reiciendis, officia quibusdam?</p>
           </section> 
         </section>
 
     </main>
 
     <br>
-
-    <footer class="container-fluid">
-      <section class="row">
-        <section class="col-md-12 copyright">
-          <p>© Copyright</p>
-        </section>
-      </section>
-      
-    </footer>
+<!-- Footer -->
+    <footer class="footer">
+      <!-- Thin teal line ontop of footer -->
+      <div class="top"></div>
+       <section class="row">
+         <!-- main footer -->
+         <section class="col-md-12 copyright">
+           <p>© Copyright</p>
+         </section>
+       </section>
+       
+     </footer>
 
 
     <!-- JavaScript -->

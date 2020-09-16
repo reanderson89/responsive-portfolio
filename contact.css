@@ -1,8 +1,9 @@
+/* formatting for the Name, Email, and Message parts of the form */
 .form-group {
     margin-right: 135px;
     margin-left: 25px;
     }
-    
+    /* formatting for the submission button of the form */
 .btn {
     padding-left: 30px;
     padding-right: 30px;

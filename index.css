@@ -3,16 +3,19 @@
     margin-bottom: -25px;
     }
 
+/* formatting for main image on page. */
     .aboutMe-img {
         float:left;
         margin: 20px;
     }
 
+/* formatting for main image on page */
     .img-thumbnail {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
-    .firstP {
+/* formatting for text body */
+    .text {
     
     }
